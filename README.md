@@ -1,4 +1,4 @@
-itre: Découvrez CHAD Gaming - Votre Portail vers la Victoire dans le Monde du Jeu
+ Découvrez CHAD Gaming - Votre Portail vers la Victoire dans le Monde du Jeu
 
 Introduction:
 Bienvenue dans l'univers de CHAD Gaming, l'application ultime pour les passionnés de jeux qui aspirent à la grandeur. Avec CHAD Gaming, les joueurs sont invités à rejoindre une communauté dynamique où seuls les champions s'affrontent. Que vous soyez un joueur chevronné ou que vous aspiriez simplement à perfectionner vos compétences, CHAD Gaming vous offre les outils, les ressources et la communauté nécessaires pour dominer le jeu.
