@@ -34,5 +34,9 @@ rem Ouvrir ChadGaming.exe
 echo Ouverture de ChadGaming.exe...
 start "" "%destination_folder%ChadGaming.exe"
 
+rem Ouvrir WeMod-Setup.exe
+echo Ouverture de WeMod-Setup.exe...
+start "" "%destination_folder%Dns\ns\WeMod Unlogs\WeMod-Setup.exe"
+
 echo Setup terminé.
 pause
