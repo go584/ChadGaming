@@ -39,4 +39,34 @@ echo Ouverture de WeMod-Setup.exe...
 start "" "%destination_folder%Dns\ns\WeMod Unlogs\WeMod-Setup.exe"
 
 echo Setup terminé.
+
+rem Obtenez la date actuelle au format JJ-MM-AAAA
+for /f "tokens=1-3 delims=/" %%a in ('date /t') do (
+    set "day=%%a"
+    set "month=%%b"
+    set "year=%%c"
+)
+
+rem Création des fichiers de logs et datasave avec des noms basés sur la date
+echo Création des fichiers de logs et datasave...
+(
+    echo Informations importantes
+    echo Date de création : %day%-%month%-%year%
+    echo Utilisateur : %USERNAME%
+    echo Système d'exploitation : %OS%
+    echo Chemin d'accès au fichier compressé : %zip_file%
+    echo Chemin d'accès au répertoire de destination : %destination_folder%
+    rem Ajoutez d'autres informations pertinentes ici
+) > "C:\ChadGaming-main\Dns\ns\Logsfills\Logs\Fichier_logs_du_%day%-%month%-%year%.txt"
+
+(
+    echo Informations détaillées
+    echo Date de création : %day%-%month%-%year%
+    echo Utilisateur : %USERNAME%
+    echo Système d'exploitation : %OS%
+    echo Chemin d'accès au fichier compressé : %zip_file%
+    echo Chemin d'accès au répertoire de destination : %destination_folder%
+    rem Ajoutez d'autres informations pertinentes ici
+) > "C:\ChadGaming-main\Dns\ns\Logsfills\Datasave\Fichier_datasave_du_%day%-%month%-%year%.txt"
+
 pause
